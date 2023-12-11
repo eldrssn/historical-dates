@@ -1,0 +1,9 @@
+@import '/src/styles/variables.scss';
+
+.date {
+  color: $secondary;
+
+  &:nth-child(2) {
+    color: $highlighted;
+  }
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&display=swap');
+@import './variables.scss';
+
+body {
+  font-family: 'PT Sans';
+  color: $primary;
+  height: 100dvh;
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
+  color: inherit;
+}
+
+hr, button {
+  all: unset;
+}

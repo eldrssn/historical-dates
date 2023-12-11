@@ -1,0 +1,14 @@
+@import '/src/styles/variables.scss';
+
+.wrapper {
+  width: 530px;
+  height: 530px;
+  border: 1px solid rgba($primary, .2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

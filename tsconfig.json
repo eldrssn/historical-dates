@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "es6" ,
+    "esModuleInterop": true ,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+  },
+  "include": ["src/**/*", "types"]
+}

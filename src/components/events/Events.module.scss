@@ -1,0 +1,30 @@
+@import '/src/styles/variables.scss';
+
+.events {
+  margin-top: auto;
+  margin-bottom: 90px;
+}
+
+.title {
+  margin: 0 20px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.hr {
+  display: block;
+  border-bottom: 1px solid $border;
+  height: 1px;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .events {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

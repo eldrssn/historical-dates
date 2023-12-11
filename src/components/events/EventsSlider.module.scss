@@ -1,0 +1,22 @@
+@import '/src/styles/variables.scss';
+
+.swiper_slide {
+  width: 60%;
+  height: auto;
+  margin-left: 20px;
+}
+
+.pagination {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  bottom: 30px !important;
+  position: fixed !important;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper_slide {
+    width: 29%;
+    margin-left: 0;
+  }
+}
