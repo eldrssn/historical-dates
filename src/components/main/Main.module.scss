@@ -33,9 +33,11 @@
 @media screen and (min-width: 1024px) {
   .main {
     border: 1px solid rgba($primary, 0.1);
-    margin-left: 17%;
-    margin-right: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
     position: relative;
+    height: auto;
+    min-height: 100vh;
 
     &::before,
     &::after {

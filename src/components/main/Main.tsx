@@ -13,8 +13,8 @@ export const Main = () => {
   return (
     <main className={styles.main}>
       <h2 className={styles.header}>
-        Исторические
-        <br /> даты
+        Historical
+        <br /> dates
       </h2>
 
       <div className={styles.dates}>

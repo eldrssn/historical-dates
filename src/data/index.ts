@@ -15,7 +15,7 @@ export interface IDiscipline {
 export const disciplines: IDiscipline[] = [
   {
     id: 'tech',
-    title: 'Технологии',
+    title: 'Technology',
     dateStart: 1980,
     dateEnd: 1986,
     events: [
@@ -23,43 +23,43 @@ export const disciplines: IDiscipline[] = [
         id: 'tech_1980',
         date: '1980',
         description:
-          'Разработка и выпуск первого персонального компьютера IBM PC, что стало важным этапом в истории компьютеризации.',
+          'Development and release of the first IBM PC, a significant milestone in the history of computerization.',
       },
       {
         id: 'tech_1981',
         date: '1981',
         description:
-          'Появление первого портативного компьютера, Osborne 1, который был первым коммерчески успешным переносным компьютером.',
+          'Introduction of the first portable computer, Osborne 1, which became the first commercially successful portable computer.',
       },
       {
         id: 'tech_1983',
         date: '1983',
         description:
-          'Запуск проекта ARPANET, предшественника современного интернета, что стало важным этапом в развитии сетевых технологий.',
+          'Launch of the ARPANET project, the precursor to the modern internet, a crucial development in network technology.',
       },
       {
         id: 'tech_1984',
         date: '1984',
         description:
-          'Появление компьютера Macintosh от Apple с графическим интерфейсом пользователя и мышью, что существенно изменило компьютерную индустрию.',
+          'Introduction of the Macintosh computer by Apple with a graphical user interface and a mouse, significantly changing the computer industry.',
       },
       {
         id: 'tech_1985',
         date: '1985',
         description:
-          'Запуск системы Windows 1.0 от Microsoft, что заложило основы для дальнейшего успеха операционных систем Windows.',
+          'Release of Microsoft Windows 1.0, laying the foundation for the subsequent success of Windows operating systems.',
       },
       {
         id: 'tech_1986',
         date: '1986',
         description:
-          'Старт программы "Космический человек", призванной создать первый модуль связи для сети спутниковых телефонов.',
+          'Start of the "Space Man" program, aimed at creating the first communication module for satellite phone networks.',
       },
     ],
   },
   {
     id: 'movies',
-    title: 'Кино',
+    title: 'Movies',
     dateStart: 1987,
     dateEnd: 1991,
     events: [
@@ -67,37 +67,37 @@ export const disciplines: IDiscipline[] = [
         id: 'movies_1987',
         date: '1987',
         description:
-          'Премьера фильма "Храброе сердце" с Мелом Гибсоном, который получил множество наград, включая Оскар за лучший фильм и лучшего режиссера.',
+          'Premiere of the film "Braveheart" starring Mel Gibson, which received numerous awards, including the Oscar for Best Picture and Best Director.',
       },
       {
         id: 'movies_1988',
         date: '1988',
         description:
-          'Выход анимационного фильма "Король Лев" от студии Disney, ставшего культовым произведением и одним из самых успешных мультфильмов.',
+          'Release of the animated film "The Lion King" by Disney, becoming a cult classic and one of the most successful animated films.',
       },
       {
         id: 'movies_1989',
         date: '1989',
         description:
-          'Премьера фильма "Назад в будущее 2", который стал классикой научно-фантастического кино и получил признание зрителей.',
+          'Premiere of the film "Back to the Future Part II," a sci-fi classic that gained audience recognition.',
       },
       {
         id: 'movies_1990',
         date: '1990',
         description:
-          'Выход фильма "Танцующий с волками" с Кевином Костнером, который выиграл 7 Оскаров, включая лучший фильм и лучшего режиссера.',
+          'Release of the film "Dances with Wolves" starring Kevin Costner, winning 7 Oscars, including Best Picture and Best Director.',
       },
       {
         id: 'movies_1991',
         date: '1991',
         description:
-          'Премьера фильма "Молчание ягнят" с Джоди Фостер и Энтони Хопкинсом, который стал культовым триллером и завоевал 5 Оскаров.',
+          'Premiere of the film "The Silence of the Lambs" with Jodie Foster and Anthony Hopkins, becoming a cult thriller and winning 5 Oscars.',
       },
     ],
   },
   {
     id: 'literature',
-    title: 'Литература',
+    title: 'Literature',
     dateStart: 1992,
     dateEnd: 1997,
     events: [
@@ -105,43 +105,43 @@ export const disciplines: IDiscipline[] = [
         id: 'literature_1992',
         date: '1992',
         description:
-          'Публикация романа "Исчезнувшая" Гиллиан Флинн, который стал бестселлером и получил множество наград.',
+          'Publication of the novel "Gone Girl" by Gillian Flynn, becoming a bestseller and receiving numerous awards.',
       },
       {
         id: 'literature_1993',
         date: '1993',
         description:
-          'Вручение Нобелевской премии по литературе Тони Моррисон за ее вклад в американскую литературу, особенно в повествование о чернокожем населении.',
+          'Awarding of the Nobel Prize in Literature to Toni Morrison for her contribution to American literature, especially in narrating the experiences of the African American population.',
       },
       {
         id: 'literature_1994',
         date: '1994',
         description:
-          'Выход романа "Форрест Гамп" Уинстона Грума, который позднее стал основой для популярного одноименного фильма.',
+          'Release of the novel "Forrest Gump" by Winston Groom, later adapted into the popular film of the same name.',
       },
       {
         id: 'literature_1995',
         date: '1995',
         description:
-          'Публикация "Вечного сияния чистого разума" Мишеля Гонсаля Делетреза, сценария к одноименному фильму, который получил Оскар.',
+          'Publication of "Eternal Sunshine of the Spotless Mind" by Michel Gondry, the screenplay for the film that won an Oscar.',
       },
       {
         id: 'literature_1996',
         date: '1996',
         description:
-          'Выход первого романа о Гарри Поттере, "Гарри Поттер и философский камень" Джоан Роулинг, ставшего мировым бестселлером.',
+          'Release of the first Harry Potter novel, "Harry Potter and the Philosopher\'s Stone" by J.K. Rowling, becoming a global bestseller.',
       },
       {
         id: 'literature_1997',
         date: '1997',
         description:
-          'Премьера романа "Все о Трое" Дэвида Николса, который также был успешно экранизирован.',
+          'Premiere of the novel "About a Boy" by David Nicholls, also successfully adapted into a film.',
       },
     ],
   },
   {
     id: 'music',
-    title: 'Музыка',
+    title: 'Music',
     dateStart: 1998,
     dateEnd: 2005,
     events: [
@@ -149,43 +149,43 @@ export const disciplines: IDiscipline[] = [
         id: 'music_1998',
         date: '1998',
         description:
-          'Выход дебютного альбома "Горячо!" группы "Сплин", который сразу же завоевал популярность в российской музыкальной сцене.',
+          'Release of the debut album "Hot!" by the band "Splean," immediately gaining popularity in the Russian music scene.',
       },
       {
         id: 'music_1999',
         date: '1999',
         description:
-          'Выход альбома "Millennium" бойз-бэнда Backstreet Boys, который стал одним из самых продаваемых альбомов десятилетия.',
+          'Release of the album "Millennium" by the boy band Backstreet Boys, becoming one of the best-selling albums of the decade.',
       },
       {
         id: 'music_2001',
         date: '2001',
         description:
-          'Выход альбома "Hybrid Theory" группы Linkin Park, который принес им мировую известность и стал платиновым.',
+          'Release of the album "Hybrid Theory" by Linkin Park, bringing them global fame and achieving platinum status.',
       },
       {
         id: 'music_2002',
         date: '2002',
         description:
-          'Премьера симфонического альбома "A Night at the Opera" группы Queen, который включал в себя эпическую композицию "Bohemian Rhapsody".',
+          'Premiere of the symphonic album "A Night at the Opera" by Queen, including the epic composition "Bohemian Rhapsody."',
       },
       {
         id: 'music_2004',
         date: '2004',
         description:
-          'Выход альбома "Confessions" Ушера, который стал одним из самых успешных R&B альбомов и принес несколько Грэмми.',
+          'Release of the album "Confessions" by Usher, becoming one of the most successful R&B albums and earning several Grammys.',
       },
       {
         id: 'music_2005',
         date: '2005',
         description:
-          'Выход альбома "X&Y" группы Coldplay, который стал коммерчески успешным и получил положительные отзывы критиков.',
+          'Release of the album "X&Y" by Coldplay, achieving commercial success and receiving positive reviews from critics.',
       },
     ],
   },
   {
     id: 'sports',
-    title: 'Спорт',
+    title: 'Sports',
     dateStart: 2006,
     dateEnd: 2014,
     events: [
@@ -193,38 +193,38 @@ export const disciplines: IDiscipline[] = [
         id: 'sports_2006',
         date: '2006',
         description:
-          'Чемпионат мира по футболу в Германии, где сборная Италии стала победителем, победив в финале сборную Франции.',
+          'FIFA World Cup in Germany, where the Italian national team emerged as the winner, defeating the French national team in the final.',
       },
       {
         id: 'sports_2008',
         date: '2008',
         description:
-          'Летние Олимпийские игры в Пекине, где Китай занял первое место в общекомандном зачёте, а Усэйн Болт установил мировые рекорды в беге на 100 и 200 метров.',
+          'Summer Olympic Games in Beijing, where China topped the overall medal standings, and Usain Bolt set world records in the 100m and 200m sprints.',
       },
       {
         id: 'sports_2010',
         date: '2010',
         description:
-          'Чемпионат мира по футболу в ЮАР, где сборная Испании выиграла турнир, победив в финале сборную Нидерландов.',
+          'FIFA World Cup in South Africa, where the Spanish national team won the tournament, defeating the Dutch national team in the final.',
       },
       {
         id: 'sports_2012',
         date: '2012',
         description:
-          'Летние Олимпийские игры в Лондоне, где США заняли первое место в общекомандном зачёте, а Майкл Фелпс установил рекорд, став самым успешным олимпийским пловцом.',
+          'Summer Olympic Games in London, where the USA topped the overall medal standings, and Michael Phelps set a record, becoming the most successful Olympic swimmer.',
       },
       {
         id: 'sports_2014',
         date: '2014',
         description:
-          'Зимние Олимпийские игры в Сочи, где Россия заняла первое место в общекомандном зачёте, а в ходе турнира было установлено несколько рекордов.',
+          'Winter Olympic Games in Sochi, where Russia topped the overall medal standings, and several records were set during the tournament.',
       },
     ],
   },
 
   {
     id: 'science',
-    title: 'Наука',
+    title: 'Science',
     dateStart: 2015,
     dateEnd: 2022,
     events: [
@@ -232,37 +232,37 @@ export const disciplines: IDiscipline[] = [
         id: 'science_20151',
         date: '2015',
         description:
-          'Объявление об обнаружении гравитационных волн, предсказанных Альбертом Эйнштейном более 100 лет назад.',
+          'Announcement of the detection of gravitational waves, predicted by Albert Einstein over 100 years ago.',
       },
       {
         id: 'science_2015',
         date: '2015',
         description:
-          'Робот Philae успешно приземлился на комете Чурюмова-Герасименко после долгого путешествия на космическом аппарате Rosetta.',
+          'Successful landing of the Philae robot on Comet 67P/Churyumov-Gerasimenko after a long journey aboard the Rosetta spacecraft.',
       },
       {
         id: 'science_2016',
         date: '2016',
         description:
-          'Обнаружение экзопланеты в зоне обитаемости вокруг Проксимы Центавра, ближайшей к нам звезды.',
+          'Discovery of an exoplanet in the habitable zone around Proxima Centauri, the closest star to us.',
       },
       {
         id: 'science_2018',
         date: '2018',
         description:
-          'Китайская космическая лаборатория Тяньгун-1 завершила свою миссию, входя в атмосферу и сгорев на Земле.',
+          "Conclusion of the mission of the Chinese space lab Tiangong-1, re-entering the Earth's atmosphere and burning up.",
       },
       {
         id: 'science_2020',
         date: '2020',
         description:
-          'Разработка и успешные испытания вакцин против COVID-19, в том числе вакцин от Pfizer-BioNTech, Moderna, и AstraZeneca.',
+          'Development and successful trials of COVID-19 vaccines, including vaccines from Pfizer-BioNTech, Moderna, and AstraZeneca.',
       },
       {
         id: 'science_2021',
         date: '2021',
         description:
-          'Первое в истории человечества полет космического аппарата на поверхность Марса - марсохода Perseverance.',
+          'First-ever human-made spacecraft landing on the surface of Mars - the Perseverance rover.',
       },
     ],
   },
